@@ -1,13 +1,13 @@
-package Dao;
+package Dao.implementacion;
 
-import Model.Odontologo;
+import Dao.iDao;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class OdontologoDao<T> implements iDao<T>{
+public class OdontologoDao<T> implements iDao<T> {
 public static final Logger logger = Logger.getLogger(OdontologoDao.class);
 
     private List<T> listOdontologo;
